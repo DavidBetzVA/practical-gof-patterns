@@ -20,7 +20,7 @@ dotnet run --project csharp
 
 | Guide | Purpose |
 | --- | --- |
-| [Contract Evolution](contract-evolution/README.md) | Interfaces, adapters, facades, and strategies for multi-team shared C# systems. |
+| [Contract Evolution](../contract-evolution/README.md) | Interfaces, adapters, facades, and strategies for multi-team shared C# systems. |
 
 ## Problem-First Index
 

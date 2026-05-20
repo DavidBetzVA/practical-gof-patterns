@@ -7,6 +7,7 @@ with modern language-specific notes that discourage cargo-cult usage.
 | --- | --- |
 | `py/` | Modern Python samples with Python-specific alternatives and caution labels. |
 | `csharp/` | Modern C# samples with C#-specific alternatives and caution labels. |
+| [`contract-evolution/`](contract-evolution/README.md) | Applied C# guide for stable contracts, strategies, adapters, and facades in multi-team systems. |
 
 ## Problem-First Index
 
