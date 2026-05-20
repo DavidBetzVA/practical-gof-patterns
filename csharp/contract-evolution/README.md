@@ -12,6 +12,11 @@ When 10 teams become 20 teams, shared method signatures become a coordination
 bottleneck. A change for Team A should not force Team B to spend three sprints
 upgrading unrelated code.
 
+Interfaces should define behavior, not implementation names. `ICloudStorage` is
+better than `IS3Storage` or `ILocalStackStorage`, but capability interfaces like
+`IReadableStorage`, `IWritableStorage`, or `IEligibilityPolicy` are better when
+callers only need that specific behavior.
+
 Use this shape:
 
 | Need | Pattern / Practice |
@@ -47,6 +52,7 @@ Do not make every team upgrade because one team needs a new parameter.
 
 Instead:
 
+- define interfaces around capabilities and behaviors
 - stabilize interfaces
 - version request and response contracts
 - put adapters at ownership boundaries
